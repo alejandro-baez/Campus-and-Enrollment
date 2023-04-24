@@ -1,0 +1,186 @@
+body {
+  margin: 0px;
+}
+
+#nav {
+  display: flex;
+  margin: 2rem;
+  justify-content: space-around;
+  border-bottom: solid;
+  height: 66px;
+}
+
+#footer-container {
+  height: 40px;
+  border-top: solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-item {
+  color: rgb(158, 158, 158);
+}
+
+#homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin-top: 10rem;
+}
+
+#homepage > h2 {
+  font-size: 40px;
+}
+
+#homepage > h3 {
+  text-decoration: underline;
+  font-style: italic;
+}
+
+#campuses {
+  margin-left: 25rem;
+  margin-right: 25rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+#students {
+  margin-left: 25em;
+  margin-right: 25rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+#campus img {
+  width: 350px;
+  height: 350px;
+}
+
+#campus {
+  margin-left: 25rem;
+  margin-right: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#student {
+  margin-left: 25rem;
+  margin-right: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#student img {
+  width: 350px;
+  height: 300px;
+}
+
+main {
+  min-height: calc(100vh - 106px);
+  padding-bottom: 2rem;
+}
+
+.column-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.students-link {
+  border: solid;
+  height: 50px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.campuses-link {
+  border: solid;
+  height: 50px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.single-campus > img {
+  width: 250px;
+  height: 250px;
+  margin-top: 10px;
+}
+
+.campus-description {
+  text-align: center;
+}
+
+.create-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 10px;
+  border: solid;
+  border-radius: 5px;
+  height: 100%;
+}
+
+.create-form .title-form {
+  align-self: center;
+  font-weight: bolder;
+  padding-bottom: 1rem;
+}
+
+.update-form {
+  display: flex;
+  flex-direction: column;
+  border: solid;
+  padding: 10px;
+  height: 100%;
+  align-items: center;
+  width: 200px;
+}
+
+.update-form .title-form {
+  font-weight: bolder;
+  padding-bottom: 1rem;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.unregister-btn {
+  background-color: red;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.remove-btn {
+  background-color: red;
+  font-weight: bold;
+  margin: 5px 15px;
+}
+
+.submit-btn {
+  background-color: rgb(67, 191, 232);
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.icon-img {
+  height: 60px;
+  width: 60px;
+}
