@@ -12,7 +12,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        cache: npm
       - name: npm ci, build, seed
         run: |
           npm i
-          npm run build-watch
