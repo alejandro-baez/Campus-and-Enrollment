@@ -11,9 +11,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v4
-    - name: npm ci, build, seed 
-      run: |
-        npm i
-        npm run seed
-        npm run start
+      - uses: actions/checkout@v4
+      - name: npm ci, build, seed
+        run: |
+          npm i
+          npm run seed
+          npm run build-watch
