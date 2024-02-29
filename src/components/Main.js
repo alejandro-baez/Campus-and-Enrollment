@@ -3,7 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import Campuses from "./Campuses";
 import Students from "./Students";
 import Navbar from "./Navbar";
-import SingleCampus from "./singleCampus";
+import SingleCampus from "./SingleCampus";
 import SingleStudent from "./SingleStudent";
 import Homepage from "./Homepage";
 import Footer from "./Footer";
