@@ -26,7 +26,7 @@ const seed = async () => {
       address:
         "The Cupboard under the Stairs, 4 Privet Drive, Little Whinging, Surrey ",
       description:
-        "Mauris lacini, mauris sit amet sollicitudin egestas, velit justo iaculis magna, a volutpat velit quam nec felis. Quisque posuere scelerisque lorem non pretium. Quisque rhoncus arcu in mattis ornare. Ut quis tortor hendrerit, aliquet velit eget, euismod nulla. Donec sapien tellus, tincidunt id sapien quis, ultrices bibendum tellus.",
+        "Mauris lacini, mauri sit amet sollicitudin egestas, velit justo iaculis magna, a volutpat velit quam nec felis. Quisque posuere scelerisque lorem non pretium. Quisque rhoncus arcu in mattis ornare. Ut quis tortor hendrerit, aliquet velit eget, euismod nulla. Donec sapien tellus, tincidunt id sapien quis, ultrices bibendum tellus.",
     });
 
     //creating students
