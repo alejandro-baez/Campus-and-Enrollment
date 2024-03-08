@@ -11,7 +11,7 @@ const seed = async () => {
         "https://upload.wikimedia.org/wikipedia/commons/6/6f/Frankfurt_School_Campus.jpg ",
       address: "124 Conch St., Bikini Bottom, Pacific Ocean ",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur hendrerit bibendum eleifend. Mauris malesuada nec nibh ut pharetra. Proin pharetra venenatis fermentum. Pellentesque sed ligula maximus, ornare sem sed, placerat sem. Ut nibh quam, consequat ac urna at, commodo tristique ligula.",
+        "Lore ipsum dolor sit amet, consectetur adipiscing elit. Curabitur hendrerit bibendum eleifend. Mauris malesuada nec nibh ut pharetra. Proin pharetra venenatis fermentum. Pellentesque sed ligula maximus, ornare sem sed, placerat sem. Ut nibh quam, consequat ac urna at, commodo tristique ligula.",
     });
     const bazzTech = await Campus.create({
       name: "Bazz Tech",
@@ -26,7 +26,7 @@ const seed = async () => {
       address:
         "The Cupboard under the Stairs, 4 Privet Drive, Little Whinging, Surrey ",
       description:
-        "Mauris lacinia, mauris sit amet sollicitudin egestas, velit justo iaculis magna, a volutpat velit quam nec felis. Quisque posuere scelerisque lorem non pretium. Quisque rhoncus arcu in mattis ornare. Ut quis tortor hendrerit, aliquet velit eget, euismod nulla. Donec sapien tellus, tincidunt id sapien quis, ultrices bibendum tellus.",
+        "Mauris lacini, mauris sit amet sollicitudin egestas, velit justo iaculis magna, a volutpat velit quam nec felis. Quisque posuere scelerisque lorem non pretium. Quisque rhoncus arcu in mattis ornare. Ut quis tortor hendrerit, aliquet velit eget, euismod nulla. Donec sapien tellus, tincidunt id sapien quis, ultrices bibendum tellus.",
     });
 
     //creating students
